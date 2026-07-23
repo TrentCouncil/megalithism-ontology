@@ -1,0 +1,2845 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/int-act-project/8/mh-ontology-30" ],
+    "title" : {
+      "undefined" : "Megalithic Heritage Ontology"
+    },
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "version" : "1.0",
+    "author" : [ "INT-ACT UÉvora Team" ],
+    "comments" : {
+      "undefined" : "A CIDOC-CRM based ontology for representing megalithic and natural heritage sites, developed by the INT-ACT team"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "INT-ACT UÉvora Team",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Megalithic Heritage Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "59",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Municipality",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Municipality"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Mora",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Mora"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Comhairle_nan_Eilean_Siar",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Comhairle_nan_Eilean_Siar"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Second-level administrative division after district, with its own jurisdiction and local government"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SpiritualOrRitualSite",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpiritualOrRitualSite"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CalanaisI"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A location where ancient religious or ceremonial/ritualistic practices were/are conducted"
+    },
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Coordinates",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Coordinates"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#‘58.197541,_-6.7451450’",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "‘58.197541,_-6.7451450’"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#38.931079,_-8.121081",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "38.931079,_-8.121081"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A specific location in space"
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Volunteer",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Volunteer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Margaret_Curtis",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Margaret_Curtis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Ron_Curtis",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Ron_Curtis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Gerald_Ponting",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Gerald_Ponting"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Committed participant without a professional background, actively involved in fieldwork"
+    },
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Beaker",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beaker"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FineBeaker",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "FineBeaker"
+      }
+    } ],
+    "subClasses" : [ "10" ],
+    "comment" : {
+      "undefined" : "A ceramic drinking or storage vessel typical of Late Neolithic/Bronze Age"
+    },
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#UrbanLandscape",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UrbanLandscape"
+    },
+    "comment" : {
+      "undefined" : "A space, like a city, that contains physical and visual elements built by human"
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E53_Place"
+    },
+    "subClasses" : [ "14", "15", "0", "16" ],
+    "id" : "1",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#RuralLandscape",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RuralLandscape"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Open_Moorland",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Open_Moorland"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Montado_Alentejano",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Montado_Alentejano"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Landscape charaterised by open fields, low population and green areas with diverse vegetation"
+    },
+    "id" : "17",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MegalithicMonument"
+    },
+    "subClasses" : [ "20", "21" ],
+    "comment" : {
+      "undefined" : "An archaeological monument built with standing megalithic stones"
+    },
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Archaeologist",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Archaeologist"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patrick_Ashmore",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Patrick_Ashmore"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Leonor_Rocha",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Leonor_Rocha"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Pedro_Alvim",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Pedro_Alvim"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Manuel_Calado",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Manuel_Calado"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A professional whose expertise involves both on-site and off-site study of past human societies"
+    },
+    "id" : "22",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Image"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgFont1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "ImgFont1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgFont2",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "ImgFont2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgCal2",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "ImgCal2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgCal1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "ImgCal1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Image files"
+    },
+    "id" : "23",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageMonument",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalHeritageMonument"
+    },
+    "subClasses" : [ "19" ],
+    "comment" : {
+      "undefined" : "A heritage monument related to a nation or a group of people"
+    },
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NaturalSoundscape"
+    },
+    "subClasses" : [ "29", "30", "31", "32" ],
+    "comment" : {
+      "undefined" : "Sounds of nature in its characteristic environment"
+    },
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E39_Actor"
+    },
+    "subClasses" : [ "34", "7", "35" ],
+    "id" : "33",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Narrative",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Narrative"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtCal1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "NrtCal1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtFont1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "NrtFont1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A story that transmits meaning and significant memories of a specific place"
+    },
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BronzeAge",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BronzeAge"
+    },
+    "subClasses" : [ "42" ],
+    "comment" : {
+      "undefined" : "A specific and transitional period between prehistory and protohistory"
+    },
+    "id" : "40",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageSite",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalHeritageSite"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CalanaisI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Cromeleque_das_Fontaínhas"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A place of importance recognised for its historical and cultural value"
+    },
+    "id" : "45",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ArchaeologicalArtefact"
+    },
+    "subClasses" : [ "46", "47", "48", "8", "49", "50" ],
+    "comment" : {
+      "undefined" : "Artefact found in an archaeological site"
+    },
+    "id" : "9",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Menhir"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M47",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CL_M47"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M45",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CL_M45"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M3",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CL_M3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M46",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CL_M46"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M4",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CL_M4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CL_M1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M2",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CL_M2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M44",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CL_M44"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5b",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M5b"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M5"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M6",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M6"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M6a",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M6a"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M7",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M7"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5a",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M5a"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M8",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M8"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M2",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M3",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M4",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CF_M4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A standing stone placed in the ground by humans"
+    },
+    "id" : "21",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SoundsOfTheTreeBranches",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoundsOfTheTreeBranches"
+    },
+    "comment" : {
+      "undefined" : "Sounds of tree branches moving"
+    },
+    "id" : "32",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E73_Information_Object",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E73_Information_Object"
+    },
+    "subClasses" : [ "24", "39" ],
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E24_Physical_Human-Made_Thing",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E24_Physical_Human-Made_Thing"
+    },
+    "subClasses" : [ "25", "9" ],
+    "id" : "26",
+    "superClasses" : [ "54", "57" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Parish",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Parish"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Pavia",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Pavia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Uig",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Uig"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A minor administrative division, sub part of Municipalities"
+    },
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BirdSounds",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BirdSounds"
+    },
+    "comment" : {
+      "undefined" : "Sounds of birds chirping"
+    },
+    "id" : "31",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E89_Propositional_Object",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E89_Propositional_Object"
+    },
+    "subClasses" : [ "56" ],
+    "id" : "65",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalLandscape",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NaturalLandscape"
+    },
+    "comment" : {
+      "undefined" : "A landscape containing features made by humans. It can be protected as a cultural heritage site"
+    },
+    "id" : "66",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E27_Site"
+    },
+    "subClasses" : [ "45", "2", "69", "70" ],
+    "id" : "3",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OtherSounds",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OtherSounds"
+    },
+    "comment" : {
+      "undefined" : "Other sounds"
+    },
+    "id" : "29",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OcupationOrUsage",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OcupationOrUsage"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Ocupation_of_Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Ocupation_of_Cromeleque_das_Fontaínhas"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Occupation_or_Usage_of__CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Occupation_or_Usage_of__CalanaisI"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The occupation or usage of the archaeological site"
+    },
+    "id" : "78",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E70_Thing",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E70_Thing"
+    },
+    "subClasses" : [ "54", "57" ],
+    "id" : "79",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalSite",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ArchaeologicalSite"
+    },
+    "subClasses" : [ "62" ],
+    "comment" : {
+      "undefined" : "The area where traces of human occupation have been found"
+    },
+    "id" : "69",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Engravings",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Engravings"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Crescent_and_Crozier",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Crescent_and_Crozier"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Carved marks or decorations on menhirs"
+    },
+    "id" : "72",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patron/Promoter",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Patron/Promoter"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#James_Matheson",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "James_Matheson"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The sponsor of the archaeological intervention"
+    },
+    "id" : "34",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Idol",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Idol"
+    },
+    "subClasses" : [ "84" ],
+    "comment" : {
+      "undefined" : "Object made with the purpose of fulfilling a religious / ritualistic / symbolic goal"
+    },
+    "id" : "46",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LoomWeight",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LoomWeight"
+    },
+    "comment" : {
+      "undefined" : "Object used in textile production"
+    },
+    "id" : "49",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#TouristicSite",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TouristicSite"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CalanaisI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Cromeleque_das_Fontaínhas"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A space open to visitors"
+    },
+    "id" : "70",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Climate",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Climate"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OceanicClimate",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "OceanicClimate"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Mediterranean_Climate",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Mediterranean_Climate"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A feature regarding weather conditions"
+    },
+    "id" : "85",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E74_Group",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E74_Group"
+    },
+    "subClasses" : [ "86" ],
+    "id" : "35",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Region",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Outer_Hebrides",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Outer_Hebrides"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Alentejo_Central",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Alentejo_Central"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A geographical unit that can aggregate multiple districts"
+    },
+    "id" : "15",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#District",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "District"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Évora",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Évora"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A subdivision of a region that can encompass multiple municipalities within boundaries"
+    },
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#3DModel",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "3DModel"
+    },
+    "comment" : {
+      "undefined" : "3D model files"
+    },
+    "id" : "89",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#EarlyNeolithic",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EarlyNeolithic"
+    },
+    "comment" : {
+      "undefined" : "The earliest phase of the Neolithic"
+    },
+    "id" : "90",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SoundsOfTheWindBlowing",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoundsOfTheWindBlowing"
+    },
+    "comment" : {
+      "undefined" : "Sounds of blowing wind"
+    },
+    "id" : "30",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Identification"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification_of_Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Identification_of_Cromeleque_das_Fontaínhas"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification_of_CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Identification_of_CalanaisI"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The identification of the archaeological site"
+    },
+    "id" : "87",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Excavation"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation_of_CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Excavation_of_CalanaisI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation_of_Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Excavation_of_Cromeleque_das_Fontaínhas"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Technical examination of an archaeological site which involves the digging and removal of layers of earth and their associated artefacts"
+    },
+    "id" : "95",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E21_Person",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E21_Person"
+    },
+    "subClasses" : [ "22", "6" ],
+    "id" : "7",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Landscape"
+    },
+    "subClasses" : [ "12", "66" ],
+    "comment" : {
+      "undefined" : "Landscape includes physical and natural elements of an environment, as well as human elements such as built structures"
+    },
+    "id" : "67",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E52_TimeSpan"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1857",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "1857"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#2900-1500",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "2900-1500"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1980-1986",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "1980-1986"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#3300-2500",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "3300-2500"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#7000-2000",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "7000-2000"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#2005-2006",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "2005-2006"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1970",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "1970"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1680s",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "1680s"
+      }
+    } ],
+    "id" : "76",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Audio"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudFont2",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "AudFont2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudFont1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "AudFont1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudCal2",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "AudCal2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudCal1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "AudCal1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Audio files"
+    },
+    "id" : "107",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E4_Period",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E4_Period"
+    },
+    "subClasses" : [ "40", "91", "37" ],
+    "id" : "41",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalMonument",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ArchaeologicalMonument"
+    },
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "undefined" : "A monument that preserves traces of human occupation"
+    },
+    "id" : "19",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicSite",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MegalithicSite"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CalanaisI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Cromeleque_das_Fontaínhas"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A specific geographical area where large stone monuments or constructions, like stones circles or standing stones, are located"
+    },
+    "id" : "62",
+    "superClasses" : [ "69" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "89", "107", "23", "118" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneTool",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StoneTool"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneTool1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "StoneTool1"
+      }
+    } ],
+    "subClasses" : [ "119" ],
+    "comment" : {
+      "undefined" : "A general-purpose manually shaped stone implement"
+    },
+    "id" : "50",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E71_Human-Made_Thing",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E71_Human-Made_Thing"
+    },
+    "subClasses" : [ "26", "65" ],
+    "id" : "57",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E33_Linguistic_Object",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E33_Linguistic_Object"
+    },
+    "subClasses" : [ "38" ],
+    "id" : "39",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restoration"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration_of_Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Restoration_of_Cromeleque_das_Fontaínhas"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration_of_CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Restoration_of_CalanaisI"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The restoration of components of the archaeological site"
+    },
+    "id" : "125",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E18_Physical_Thing"
+    },
+    "subClasses" : [ "26", "68" ],
+    "id" : "54",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#PlaqueIdol",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PlaqueIdol"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Plaque_Idol_from_Coudelaria_de_Alter",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Plaque_Idol_from_Coudelaria_de_Alter"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An idol in the shape of a plaque (engraved stone plaques)"
+    },
+    "id" : "84",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LithicTool",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LithicTool"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#QuartzLithics",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "QuartzLithics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FlintLithics",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "FlintLithics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MyloniteLithics",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "MyloniteLithics"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Tool made by knapping stone such as flint, quartz or mylonite"
+    },
+    "id" : "119",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Museum",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Museu_do_Megalitismo_de_Mora",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Museu_do_Megalitismo_de_Mora"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A public entity whose efforts involve the acquisition, preservation, research and exhibition of objects with different types of values"
+    },
+    "id" : "86",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalLandscape",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalLandscape"
+    },
+    "subClasses" : [ "11", "17" ],
+    "comment" : {
+      "undefined" : "A landscape containing features made by humans. It can be protected as a cultural heritage site"
+    },
+    "id" : "12",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Video",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Video"
+    },
+    "comment" : {
+      "undefined" : "Video files"
+    },
+    "id" : "118",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MiddleBronzeAge",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MiddleBronzeAge"
+    },
+    "comment" : {
+      "undefined" : "The middle phase of the Bronze Age"
+    },
+    "id" : "42",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FoodVessel",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FoodVessel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FoodVesselBeaker",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "FoodVesselBeaker"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A subtype of Beaker, typically larger and used in funerary contexts"
+    },
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E7_Activity"
+    },
+    "subClasses" : [ "87", "95", "78", "125", "75" ],
+    "id" : "37",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LateNeolithic",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LateNeolithic"
+    },
+    "comment" : {
+      "undefined" : "The latest phase of the Neolithic"
+    },
+    "id" : "157",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E26_Physical_Feature"
+    },
+    "subClasses" : [ "28", "85", "67", "3" ],
+    "id" : "68",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Neolithic"
+    },
+    "subClasses" : [ "90", "157" ],
+    "comment" : {
+      "undefined" : "A specific period from prehistory"
+    },
+    "id" : "91",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Text",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Text"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#TxtFont1",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "TxtFont1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Text files"
+    },
+    "id" : "175",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneCircleOrCromlech",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StoneCircleOrCromlech"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "CalanaisI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Cromeleque_das_Fontaínhas"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An arrangement of standing stones (menhirs) placed by humans"
+    },
+    "id" : "20",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E2_Temporal_Entity",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E2_Temporal_Entity"
+    },
+    "subClasses" : [ "41" ],
+    "id" : "80",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "88",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "59",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Arrowhead",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Arrowhead"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BarbedTangedArrowheads",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "BarbedTangedArrowheads"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The tip of an arrow"
+    },
+    "id" : "47",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E90_Symbolic_Object",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E90_Symbolic_Object"
+    },
+    "subClasses" : [ "55", "72" ],
+    "id" : "56",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E94_Space_Primitive",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E94_Space_Primitive"
+    },
+    "subClasses" : [ "4" ],
+    "id" : "5",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Construction"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction_of__CalanaisI",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Construction_of__CalanaisI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction_of_Cromeleque_das_Fontaínhas",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "Construction_of_Cromeleque_das_Fontaínhas"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The construction of the archaeological site"
+    },
+    "id" : "75",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E31_Document"
+    },
+    "subClasses" : [ "89", "107", "23", "118", "175" ],
+    "id" : "24",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Soundscape",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Soundscape"
+    },
+    "subClasses" : [ "27" ],
+    "comment" : {
+      "undefined" : "Set of sounds typical from an environment"
+    },
+    "id" : "28",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#GroovedWare",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GroovedWare"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#GroovedWareBowl",
+      "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+      "labels" : {
+        "IRI-based" : "GroovedWareBowl"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Neolithic ceramic tradition characterized by incised decoration"
+    },
+    "id" : "48",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E1_CRM_Entity"
+    },
+    "subClasses" : [ "80", "1", "5", "79", "33", "76" ],
+    "id" : "13"
+  } ],
+  "property" : [ {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "178",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carriedOutBy",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "P14_carriedOutBy"
+    },
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#heightMeters",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "heightMeters"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#rockType",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "rockType"
+    },
+    "domain" : "18",
+    "attributes" : [ "datatype" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P53_has_former_or_current_location",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "P53_has_former_or_current_location"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "59",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#usagetypeMegalithism",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "usagetypeMegalithism"
+    },
+    "domain" : "62",
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "P129_isAbout"
+    },
+    "domain" : "65",
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasEngravings",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "hasEngravings"
+    },
+    "superproperty" : [ "73" ],
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasConstructionTimeSpan",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "hasConstructionTimeSpan"
+    },
+    "superproperty" : [ "77" ],
+    "domain" : "75",
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "P4_hasTimeSpan"
+    },
+    "domain" : "80",
+    "subproperty" : [ "81", "82", "74", "83" ],
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasIdentificationTimeSpan",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "hasIdentificationTimeSpan"
+    },
+    "superproperty" : [ "77" ],
+    "domain" : "87",
+    "attributes" : [ "object" ],
+    "id" : "82"
+  }, {
+    "range" : "27",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#usagetypeArtefacts",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "usagetypeArtefacts"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "range" : "27",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "27",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasClimate",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "hasClimate"
+    },
+    "superproperty" : [ "73" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "98"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "18",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "27",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "25",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "1",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "18",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P89_falls_within",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "P89_falls_within"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "108"
+  }, {
+    "range" : "41",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "41",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P130_shows_features_of",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "P130_shows_features_of"
+    },
+    "domain" : "79",
+    "subproperty" : [ "98", "111", "71" ],
+    "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "67",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "67",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "7",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "55",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "26",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasMegalithicComponents",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasMegalithicComponents"
+    },
+    "superproperty" : [ "127" ],
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "126"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "54",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "55",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "12",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P198_holds_or_supports",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "P198_holds_or_supports"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "132"
+  }, {
+    "range" : "9",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#format",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "format"
+    },
+    "domain" : "18",
+    "attributes" : [ "datatype" ],
+    "id" : "134"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "54",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "9",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "9",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "9",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_IsComposedOf",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "P46_IsComposedOf"
+    },
+    "domain" : "54",
+    "subproperty" : [ "126" ],
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Link",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "Link"
+    },
+    "domain" : "117",
+    "attributes" : [ "datatype" ],
+    "id" : "141"
+  }, {
+    "range" : "9",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "57",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "40",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "57",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "33",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "33",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "50",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "33",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "46",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "69",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "80",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "91",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "91",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "79",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "68",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "68",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "79",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "68",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "3",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P165_incorporates",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "P165_incorporates"
+    },
+    "domain" : "65",
+    "attributes" : [ "object" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasUsageTimeSpan",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "hasUsageTimeSpan"
+    },
+    "superproperty" : [ "77" ],
+    "domain" : "78",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "range" : "68",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "3",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "65",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "37",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "3",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "37",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "37",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "37",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "37",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "P8_took_place_on_or_within"
+    },
+    "domain" : "41",
+    "attributes" : [ "object" ],
+    "id" : "177"
+  }, {
+    "range" : "91",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasExcavationTimeSpan",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "hasExcavationTimeSpan"
+    },
+    "superproperty" : [ "77" ],
+    "domain" : "95",
+    "attributes" : [ "object" ],
+    "id" : "83"
+  }, {
+    "range" : "13",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "13",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "13",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "13",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "24",
+    "domain" : "175",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "13",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "13",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "24",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "24",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasTypicalLandscape",
+    "baseIri" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "hasTypicalLandscape"
+    },
+    "superproperty" : [ "73" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "range" : "35",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "56",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "24",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  } ]
+}

@@ -1,0 +1,1661 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "INT-ACT UÉvora Team"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Megalithic Heritage Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A CIDOC-CRM based ontology for representing megalithic and natural heritage sites, developed by the INT-ACT team"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1680s",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1857",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1970",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1980-1986",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#2005-2006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#2900-1500",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#3300-2500",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#38.931079,_-8.121081",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Coordinates"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#3DModel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "3D model files"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#7000-2000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Alentejo_Central",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasClimate" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Mediterranean_Climate"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasTypicalLandscape" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Montado_Alentejano"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Artefact found in an archaeological site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E24_Physical_Human-Made_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalMonument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A monument that preserves traces of human occupation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageMonument"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The area where traces of human occupation have been found"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Archaeologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A professional whose expertise involves both on-site and off-site study of past human societies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E21_Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Arrowhead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The tip of an arrow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudCal1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudCal2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudFont1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P165_incorporates" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtFont1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudFont2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Audio files"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BarbedTangedArrowheads",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Arrowhead"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Beaker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A ceramic drinking or storage vessel typical of Late Neolithic/Bronze Age"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BirdSounds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sounds of birds chirping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BronzeAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specific and transitional period between prehistory and protohistory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E4_Period"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#heightMeters" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasEngravings" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Crescent_and_Crozier"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M6a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P53_has_former_or_current_location" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Uig"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#format" : [ {
+    "@value" : "Cruciform Shape"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasMegalithicComponents" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M1"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M2"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M3"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M4"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M44"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M45"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M46"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M47"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#rockType" : [ {
+    "@value" : "Lewisian gneiss"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#usagetypeMegalithism" : [ {
+    "@value" : "Funerary"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageSite"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicSite"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SpiritualOrRitualSite"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneCircleOrCromlech"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#TouristicSite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Climate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A feature regarding weather conditions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Comhairle_nan_Eilean_Siar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P89_falls_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Outer_Hebrides"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Municipality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The construction of the archaeological site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction_of_Cromeleque_das_Fontaínhas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction_of__CalanaisI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasConstructionTimeSpan" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#3300-2500"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Coordinates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specific location in space"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E94_Space_Primitive"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Crescent_and_Crozier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Engravings"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P53_has_former_or_current_location" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Pavia"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#format" : [ {
+    "@value" : "HorseShoe_Shape"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasMegalithicComponents" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M1"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M2"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M3"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M4"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5a"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M5b"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M6"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M6a"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M7"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M8"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#rockType" : [ {
+    "@value" : "Granite"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#usagetypeMegalithism" : [ {
+    "@value" : "Non-Funerary"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageSite"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicSite"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneCircleOrCromlech"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#TouristicSite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageMonument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A heritage monument related to a nation or a group of people"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E24_Physical_Human-Made_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A place of importance recognised for its historical and cultural value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalLandscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A landscape containing features made by humans. It can be protected as a cultural heritage site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A subdivision of a region that can encompass multiple municipalities within boundaries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E70_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E21_Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E24_Physical_Human-Made_Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E71_Human-Made_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E2_Temporal_Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E73_Information_Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E33_Linguistic_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E73_Information_Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E4_Period",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E2_Temporal_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E70_Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E71_Human-Made_Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E70_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E73_Information_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E90_Symbolic_Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E74_Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E4_Period"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E89_Propositional_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E71_Human-Made_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E90_Symbolic_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E89_Propositional_Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E94_Space_Primitive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#EarlyNeolithic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The earliest phase of the Neolithic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Engravings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Carved marks or decorations on menhirs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E90_Symbolic_Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Technical examination of an archaeological site which involves the digging and removal of layers of earth and their associated artefacts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation_of_CalanaisI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carriedOutBy" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#James_Matheson"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patrick_Ashmore"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasExcavationTimeSpan" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1857"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1980-1986"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation_of_Cromeleque_das_Fontaínhas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carriedOutBy" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Leonor_Rocha"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Manuel_Calado"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasExcavationTimeSpan" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#2005-2006"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FineBeaker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Beaker"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FlintLithics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LithicTool"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FoodVessel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A subtype of Beaker, typically larger and used in funerary contexts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Beaker"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FoodVesselBeaker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FoodVessel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Gerald_Ponting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Volunteer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#GroovedWare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Neolithic ceramic tradition characterized by incised decoration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#GroovedWareBowl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#GroovedWare"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The identification of the archaeological site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification_of_CalanaisI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasIdentificationTimeSpan" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1680s"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification_of_Cromeleque_das_Fontaínhas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasIdentificationTimeSpan" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1970"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Idol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Object made with the purpose of fulfilling a religious / ritualistic / symbolic goal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Image files"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgCal1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgCal2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgFont1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgFont2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#James_Matheson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patron/Promoter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Landscape includes physical and natural elements of an environment, as well as human elements such as built structures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LateNeolithic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The latest phase of the Neolithic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Leonor_Rocha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Archaeologist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Link",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Video"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#3DModel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LithicTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tool made by knapping stone such as flint, quartz or mylonite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneTool"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LoomWeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Object used in textile production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Manuel_Calado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Archaeologist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Margaret_Curtis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Volunteer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Mediterranean_Climate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Climate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An archaeological monument built with standing megalithic stones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalMonument"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specific geographical area where large stone monuments or constructions, like stones circles or standing stones, are located"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalSite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A standing stone placed in the ground by humans"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MiddleBronzeAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The middle phase of the Bronze Age"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BronzeAge"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Montado_Alentejano",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#RuralLandscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Mora",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P89_falls_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Évora"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Municipality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Municipality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Second-level administrative division after district, with its own jurisdiction and local government"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Museu_do_Megalitismo_de_Mora",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Museum"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Museum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A public entity whose efforts involve the acquisition, preservation, research and exhibition of objects with different types of values"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E74_Group"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MyloniteLithics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LithicTool"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Narrative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A story that transmits meaning and significant memories of a specific place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E33_Linguistic_Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalLandscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A landscape containing features made by humans. It can be protected as a cultural heritage site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sounds of nature in its characteristic environment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Soundscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A specific period from prehistory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E4_Period"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtCal1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Narrative"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtFont1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Narrative"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Occupation_or_Usage_of__CalanaisI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasUsageTimeSpan" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#2900-1500"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OcupationOrUsage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OceanicClimate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Climate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OcupationOrUsage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The occupation or usage of the archaeological site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Ocupation_of_Cromeleque_das_Fontaínhas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasUsageTimeSpan" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#7000-2000"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OcupationOrUsage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Open_Moorland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#RuralLandscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OtherSounds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Other sounds"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Outer_Hebrides",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasClimate" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OceanicClimate"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasTypicalLandscape" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Open_Moorland"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E89_Propositional_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P130_shows_features_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E70_Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E70_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carriedOutBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P165_incorporates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E89_Propositional_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E90_Symbolic_Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P198_holds_or_supports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_IsComposedOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E2_Temporal_Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P53_has_former_or_current_location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P89_falls_within",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E4_Period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Parish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A minor administrative division, sub part of Municipalities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patrick_Ashmore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Archaeologist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patron/Promoter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The sponsor of the archaeological intervention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Pavia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P89_falls_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Mora"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Parish"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Pedro_Alvim",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Archaeologist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#PlaqueIdol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An idol in the shape of a plaque (engraved stone plaques)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Idol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Plaque_Idol_from_Coudelaria_de_Alter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#usagetypeArtefacts" : [ {
+    "@value" : "Funerary"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#PlaqueIdol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#QuartzLithics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LithicTool"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A geographical unit that can aggregate multiple districts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The restoration of components of the archaeological site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration_of_CalanaisI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carriedOutBy" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patrick_Ashmore"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration_of_Cromeleque_das_Fontaínhas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carriedOutBy" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Leonor_Rocha"
+  }, {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Manuel_Calado"
+  } ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P8_took_place_on_or_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Ron_Curtis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Volunteer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#RuralLandscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Landscape charaterised by open fields, low population and green areas with diverse vegetation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalLandscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SoundsOfTheTreeBranches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sounds of tree branches moving"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SoundsOfTheWindBlowing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sounds of blowing wind"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Soundscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Set of sounds typical from an environment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SpiritualOrRitualSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A location where ancient religious or ceremonial/ritualistic practices were/are conducted"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneCircleOrCromlech",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An arrangement of standing stones (menhirs) placed by humans"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A general-purpose manually shaped stone implement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneTool1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneTool"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Text files"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#TouristicSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A space open to visitors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#TxtFont1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P165_incorporates" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtFont1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Text"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Uig",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P89_falls_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Outer_Hebrides"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Parish"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#UrbanLandscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A space, like a city, that contains physical and visual elements built by human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalLandscape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Video",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Video files"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Volunteer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Committed participant without a professional background, actively involved in fieldwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E21_Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasClimate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Climate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P130_shows_features_of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasConstructionTimeSpan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasEngravings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Engravings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P130_shows_features_of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasExcavationTimeSpan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasIdentificationTimeSpan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasMegalithicComponents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_IsComposedOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasTypicalLandscape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P130_shows_features_of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasUsageTimeSpan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OcupationOrUsage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#heightMeters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#rockType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#usagetypeArtefacts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#usagetypeMegalithism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Évora",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P89_falls_within" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Alentejo_Central"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#District"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#‘58.197541,_-6.7451450’",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Coordinates"
+  } ]
+} ]
