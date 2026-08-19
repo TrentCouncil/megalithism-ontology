@@ -9,12 +9,10 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:mh-ontology-30="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30">
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30"/>
         <terms:creator>INT-ACT UÉvora Team</terms:creator>
-        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <terms:language>en</terms:language>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <terms:title>Megalithic Heritage Ontology</terms:title>
-        <rdfs:comment>A CIDOC-CRM based ontology for representing megalithic and natural heritage sites, developed by the INT-ACT team</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -71,10 +69,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout -->
+    <!-- http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_is_about -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_isAbout">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P129_is_about">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E89_Propositional_Object"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"/>
     </owl:ObjectProperty>
@@ -91,10 +89,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carriedOutBy -->
+    <!-- http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carried_out_by -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carriedOutBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P14_carried_out_by">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor"/>
     </owl:ObjectProperty>
@@ -121,20 +119,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_IsComposedOf -->
+    <!-- http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_is_composed_of -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_IsComposedOf">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_is_composed_of">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E18_Physical_Thing"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan -->
+    <!-- http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_has_time_span -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_has_time_span">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E2_Temporal_Entity"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"/>
     </owl:ObjectProperty>
@@ -178,6 +176,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P130_shows_features_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Climate"/>
+        <rdfs:comment>It specifies the type of climate present at a given site</rdfs:comment>
+        <rdfs:label>has climate</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -186,9 +186,11 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasConstructionTimeSpan">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_has_time_span"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"/>
+        <rdfs:label>It connects the construction of a site to its time span</rdfs:label>
+        <rdfs:label>has construction time span</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -200,6 +202,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P130_shows_features_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Engravings"/>
+        <rdfs:comment>It relates the type of engraving a given Menhir has</rdfs:comment>
+        <rdfs:label>has engravings</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -208,9 +212,11 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasExcavationTimeSpan">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_has_time_span"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"/>
+        <rdfs:comment>Associates an excavation with the time span during which it took place</rdfs:comment>
+        <rdfs:label>has excavation time span</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -219,8 +225,11 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasIdentificationTimeSpan">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_has_time_span"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"/>
+        <rdfs:comment>Indicates the time span in which a site was first identified</rdfs:comment>
+        <rdfs:comment>has identification time span</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -229,9 +238,11 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasMegalithicComponents">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_IsComposedOf"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P46_is_composed_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"/>
+        <rdfs:comment>It relates each individual Menhir to the Cromlech</rdfs:comment>
+        <rdfs:label>has megalithic components</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -243,6 +254,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P130_shows_features_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape"/>
+        <rdfs:label>Specifies the type of landscape of a site</rdfs:label>
+        <rdfs:label>has typical landscape</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -251,9 +264,11 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#hasUsageTimeSpan">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_hasTimeSpan"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#P4_has_time_span"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OcupationOrUsage"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E52_TimeSpan"/>
+        <rdfs:comment>Specifies the time span during which a site was occupied or used</rdfs:comment>
+        <rdfs:label>has usage time span</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -275,11 +290,10 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Link">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Video"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#3DModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>The url of a digital object</rdfs:comment>
+        <rdfs:label>Link</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -291,6 +305,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The shape of the Megalithic Monument</rdfs:comment>
+        <rdfs:label>format</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -302,6 +318,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>The height of a Menhir in meters</rdfs:comment>
+        <rdfs:label>heightMeters</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -313,6 +331,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The type of rock from which the Megalithic Monument is made of</rdfs:comment>
+        <rdfs:label>rockType</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -324,6 +344,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The type of usage of a archaeological artefact</rdfs:comment>
+        <rdfs:label>usagetypeArtefacts</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -335,6 +357,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicSite"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The usage type of a Megalithic Site</rdfs:comment>
+        <rdfs:label>usagetypeMegalithism</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -357,6 +381,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E24_Physical_Human-Made_Thing"/>
         <rdfs:comment>Artefact found in an archaeological site</rdfs:comment>
+        <rdfs:label>Archaeological Artefact</rdfs:label>
     </owl:Class>
     
 
@@ -367,6 +392,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalMonument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageMonument"/>
         <rdfs:comment>A monument that preserves traces of human occupation</rdfs:comment>
+        <rdfs:label>Archaeological Monument</rdfs:label>
     </owl:Class>
     
 
@@ -377,6 +403,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site"/>
         <rdfs:comment>The area where traces of human occupation have been found</rdfs:comment>
+        <rdfs:label>Archaeological Site</rdfs:label>
     </owl:Class>
     
 
@@ -387,6 +414,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Archaeologist">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E21_Person"/>
         <rdfs:comment>A professional whose expertise involves both on-site and off-site study of past human societies</rdfs:comment>
+        <rdfs:label>Archaeologist</rdfs:label>
     </owl:Class>
     
 
@@ -397,6 +425,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Arrowhead">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>The tip of an arrow</rdfs:comment>
+        <rdfs:label>Arrowhead</rdfs:label>
     </owl:Class>
     
 
@@ -407,6 +436,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"/>
         <rdfs:comment>Audio files</rdfs:comment>
+        <rdfs:label>Audio</rdfs:label>
     </owl:Class>
     
 
@@ -417,6 +447,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Beaker">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>A ceramic drinking or storage vessel typical of Late Neolithic/Bronze Age</rdfs:comment>
+        <rdfs:label>Beaker</rdfs:label>
     </owl:Class>
     
 
@@ -427,6 +458,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BirdSounds">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape"/>
         <rdfs:comment>Sounds of birds chirping</rdfs:comment>
+        <rdfs:label>Bird Sounds</rdfs:label>
     </owl:Class>
     
 
@@ -438,6 +470,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E4_Period"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic"/>
         <rdfs:comment>A specific and transitional period between prehistory and protohistory</rdfs:comment>
+        <rdfs:label>Bronze Age</rdfs:label>
     </owl:Class>
     
 
@@ -448,6 +481,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Climate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature"/>
         <rdfs:comment>A feature regarding weather conditions</rdfs:comment>
+        <rdfs:label>Climate</rdfs:label>
     </owl:Class>
     
 
@@ -458,6 +492,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Construction">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"/>
         <rdfs:comment>The construction of the archaeological site</rdfs:comment>
+        <rdfs:label>Construction</rdfs:label>
     </owl:Class>
     
 
@@ -468,6 +503,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Coordinates">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E94_Space_Primitive"/>
         <rdfs:comment>A specific location in space</rdfs:comment>
+        <rdfs:label>Coordinates</rdfs:label>
     </owl:Class>
     
 
@@ -478,6 +514,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageMonument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E24_Physical_Human-Made_Thing"/>
         <rdfs:comment>A heritage monument related to a nation or a group of people</rdfs:comment>
+        <rdfs:label>Cultural Heritage Monument</rdfs:label>
     </owl:Class>
     
 
@@ -488,6 +525,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalHeritageSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site"/>
         <rdfs:comment>A place of importance recognised for its historical and cultural value</rdfs:comment>
+        <rdfs:label>Cultural Heritage Site</rdfs:label>
     </owl:Class>
     
 
@@ -498,6 +536,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalLandscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape"/>
         <rdfs:comment>A landscape containing features made by humans. It can be protected as a cultural heritage site</rdfs:comment>
+        <rdfs:label>Cultural Landscape</rdfs:label>
     </owl:Class>
     
 
@@ -508,6 +547,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#District">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"/>
         <rdfs:comment>A subdivision of a region that can encompass multiple municipalities within boundaries</rdfs:comment>
+        <rdfs:label>District</rdfs:label>
     </owl:Class>
     
 
@@ -597,6 +637,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E1_CRM_Entity"/>
+        <rdfs:label>E39 Actor</rdfs:label>
     </owl:Class>
     
 
@@ -706,6 +747,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#EarlyNeolithic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic"/>
         <rdfs:comment>The earliest phase of the Neolithic</rdfs:comment>
+        <rdfs:label>Early Neolithic</rdfs:label>
     </owl:Class>
     
 
@@ -716,6 +758,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Engravings">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E90_Symbolic_Object"/>
         <rdfs:comment>Carved marks or decorations on menhirs</rdfs:comment>
+        <rdfs:label>Engravings</rdfs:label>
     </owl:Class>
     
 
@@ -726,6 +769,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"/>
         <rdfs:comment>Technical examination of an archaeological site which involves the digging and removal of layers of earth and their associated artefacts</rdfs:comment>
+        <rdfs:label>Excavation</rdfs:label>
     </owl:Class>
     
 
@@ -736,6 +780,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#FoodVessel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Beaker"/>
         <rdfs:comment>A subtype of Beaker, typically larger and used in funerary contexts</rdfs:comment>
+        <rdfs:label>Food Vessel</rdfs:label>
     </owl:Class>
     
 
@@ -746,6 +791,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#GroovedWare">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>Neolithic ceramic tradition characterized by incised decoration</rdfs:comment>
+        <rdfs:label>Grooved Ware</rdfs:label>
     </owl:Class>
     
 
@@ -756,6 +802,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Identification">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"/>
         <rdfs:comment>The identification of the archaeological site</rdfs:comment>
+        <rdfs:label>Identification</rdfs:label>
     </owl:Class>
     
 
@@ -766,6 +813,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Idol">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>Object made with the purpose of fulfilling a religious / ritualistic / symbolic goal</rdfs:comment>
+        <rdfs:label>Idol</rdfs:label>
     </owl:Class>
     
 
@@ -776,6 +824,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"/>
         <rdfs:comment>Image files</rdfs:comment>
+        <rdfs:label>Image</rdfs:label>
     </owl:Class>
     
 
@@ -786,6 +835,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature"/>
         <rdfs:comment>Landscape includes physical and natural elements of an environment, as well as human elements such as built structures</rdfs:comment>
+        <rdfs:label>Landscape</rdfs:label>
     </owl:Class>
     
 
@@ -796,6 +846,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LateNeolithic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic"/>
         <rdfs:comment>The latest phase of the Neolithic</rdfs:comment>
+        <rdfs:label>Late Neolithic</rdfs:label>
     </owl:Class>
     
 
@@ -806,6 +857,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LithicTool">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneTool"/>
         <rdfs:comment>Tool made by knapping stone such as flint, quartz or mylonite</rdfs:comment>
+        <rdfs:label>Lithic Tool</rdfs:label>
     </owl:Class>
     
 
@@ -816,6 +868,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#LoomWeight">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>Object used in textile production</rdfs:comment>
+        <rdfs:label>Loom Weight</rdfs:label>
     </owl:Class>
     
 
@@ -826,6 +879,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalMonument"/>
         <rdfs:comment>An archaeological monument built with standing megalithic stones</rdfs:comment>
+        <rdfs:label>Megalithic Monument</rdfs:label>
     </owl:Class>
     
 
@@ -836,6 +890,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalSite"/>
         <rdfs:comment>A specific geographical area where large stone monuments or constructions, like stones circles or standing stones, are located</rdfs:comment>
+        <rdfs:label>Megalithic Site</rdfs:label>
     </owl:Class>
     
 
@@ -846,6 +901,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Menhir">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"/>
         <rdfs:comment>A standing stone placed in the ground by humans</rdfs:comment>
+        <rdfs:label>Menhir</rdfs:label>
     </owl:Class>
     
 
@@ -856,6 +912,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MiddleBronzeAge">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#BronzeAge"/>
         <rdfs:comment>The middle phase of the Bronze Age</rdfs:comment>
+        <rdfs:label>Middle Bronze Age</rdfs:label>
     </owl:Class>
     
 
@@ -866,6 +923,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Municipality">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"/>
         <rdfs:comment>Second-level administrative division after district, with its own jurisdiction and local government</rdfs:comment>
+        <rdfs:label>Municipality</rdfs:label>
     </owl:Class>
     
 
@@ -876,6 +934,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Museum">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E74_Group"/>
         <rdfs:comment>A public entity whose efforts involve the acquisition, preservation, research and exhibition of objects with different types of values</rdfs:comment>
+        <rdfs:label>Museum</rdfs:label>
     </owl:Class>
     
 
@@ -886,6 +945,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Narrative">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E33_Linguistic_Object"/>
         <rdfs:comment>A story that transmits meaning and significant memories of a specific place</rdfs:comment>
+        <rdfs:label>Narrative</rdfs:label>
     </owl:Class>
     
 
@@ -896,6 +956,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalLandscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Landscape"/>
         <rdfs:comment>A landscape containing features made by humans. It can be protected as a cultural heritage site</rdfs:comment>
+        <rdfs:label>Natural Landscape</rdfs:label>
     </owl:Class>
     
 
@@ -906,6 +967,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Soundscape"/>
         <rdfs:comment>Sounds of nature in its characteristic environment</rdfs:comment>
+        <rdfs:label>Natural Landscape</rdfs:label>
     </owl:Class>
     
 
@@ -916,6 +978,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Neolithic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E4_Period"/>
         <rdfs:comment>A specific period from prehistory</rdfs:comment>
+        <rdfs:label>Neolithic</rdfs:label>
     </owl:Class>
     
 
@@ -926,6 +989,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OcupationOrUsage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"/>
         <rdfs:comment>The occupation or usage of the archaeological site</rdfs:comment>
+        <rdfs:label>Occupation or Usage</rdfs:label>
     </owl:Class>
     
 
@@ -935,7 +999,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#OtherSounds">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape"/>
-        <rdfs:comment>Other sounds</rdfs:comment>
+        <rdfs:comment>Natural sounds not covered by the other soundscape classes</rdfs:comment>
+        <rdfs:label>Other Sounds</rdfs:label>
     </owl:Class>
     
 
@@ -946,6 +1011,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Parish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"/>
         <rdfs:comment>A minor administrative division, sub part of Municipalities</rdfs:comment>
+        <rdfs:label>Parish</rdfs:label>
     </owl:Class>
     
 
@@ -956,6 +1022,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#PlaqueIdol">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Idol"/>
         <rdfs:comment>An idol in the shape of a plaque (engraved stone plaques)</rdfs:comment>
+        <rdfs:label>Plaque Idol</rdfs:label>
     </owl:Class>
     
 
@@ -966,6 +1033,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Region">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E53_Place"/>
         <rdfs:comment>A geographical unit that can aggregate multiple districts</rdfs:comment>
+        <rdfs:label>Region</rdfs:label>
     </owl:Class>
     
 
@@ -976,6 +1044,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E7_Activity"/>
         <rdfs:comment>The restoration of components of the archaeological site</rdfs:comment>
+        <rdfs:label>Restoration</rdfs:label>
     </owl:Class>
     
 
@@ -986,6 +1055,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#RuralLandscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalLandscape"/>
         <rdfs:comment>Landscape charaterised by open fields, low population and green areas with diverse vegetation</rdfs:comment>
+        <rdfs:label>Rural Landscape</rdfs:label>
     </owl:Class>
     
 
@@ -996,6 +1066,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SoundsOfTheTreeBranches">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape"/>
         <rdfs:comment>Sounds of tree branches moving</rdfs:comment>
+        <rdfs:label>Sounds of the Tree Branches</rdfs:label>
     </owl:Class>
     
 
@@ -1006,6 +1077,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SoundsOfTheWindBlowing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NaturalSoundscape"/>
         <rdfs:comment>Sounds of blowing wind</rdfs:comment>
+        <rdfs:label>Sounds of the Wind Blowing</rdfs:label>
     </owl:Class>
     
 
@@ -1016,6 +1088,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Soundscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E26_Physical_Feature"/>
         <rdfs:comment>Set of sounds typical from an environment</rdfs:comment>
+        <rdfs:label>Soundscape</rdfs:label>
     </owl:Class>
     
 
@@ -1026,6 +1099,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#SpiritualOrRitualSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site"/>
         <rdfs:comment>A location where ancient religious or ceremonial/ritualistic practices were/are conducted</rdfs:comment>
+        <rdfs:label>Spiritual or Ritual Site</rdfs:label>
     </owl:Class>
     
 
@@ -1036,6 +1110,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneCircleOrCromlech">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#MegalithicMonument"/>
         <rdfs:comment>An arrangement of standing stones (menhirs) placed by humans</rdfs:comment>
+        <rdfs:label>Stone Circle or Cromlech</rdfs:label>
     </owl:Class>
     
 
@@ -1046,6 +1121,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#StoneTool">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ArchaeologicalArtefact"/>
         <rdfs:comment>A general-purpose manually shaped stone implement</rdfs:comment>
+        <rdfs:label>Stone Tool</rdfs:label>
     </owl:Class>
     
 
@@ -1056,6 +1132,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Text">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"/>
         <rdfs:comment>Text files</rdfs:comment>
+        <rdfs:label>Text</rdfs:label>
     </owl:Class>
     
 
@@ -1066,6 +1143,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#TouristicSite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E27_Site"/>
         <rdfs:comment>A space open to visitors</rdfs:comment>
+        <rdfs:label>Touristic Site</rdfs:label>
     </owl:Class>
     
 
@@ -1076,6 +1154,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#UrbanLandscape">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CulturalLandscape"/>
         <rdfs:comment>A space, like a city, that contains physical and visual elements built by human</rdfs:comment>
+        <rdfs:label>Urban Landscape</rdfs:label>
     </owl:Class>
     
 
@@ -1086,6 +1165,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Video">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"/>
         <rdfs:comment>Video files</rdfs:comment>
+        <rdfs:label>Video</rdfs:label>
     </owl:Class>
     
 
@@ -1096,6 +1176,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Volunteer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E21_Person"/>
         <rdfs:comment>Committed participant without a professional background, actively involved in fieldwork</rdfs:comment>
+        <rdfs:label>Volunteer</rdfs:label>
     </owl:Class>
     
 
@@ -1106,6 +1187,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#3DModel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E31_Document"/>
         <rdfs:comment>3D model files</rdfs:comment>
+        <rdfs:label>3DModel</rdfs:label>
     </owl:Class>
     
 
@@ -1116,6 +1198,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patron/Promoter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#E39_Actor"/>
         <rdfs:comment>The sponsor of the archaeological intervention</rdfs:comment>
+        <rdfs:label>Patron/Promoter</rdfs:label>
     </owl:Class>
     
 
@@ -1148,7 +1231,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudCal1">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
     </owl:NamedIndividual>
     
 
@@ -1158,7 +1241,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudCal2">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
     </owl:NamedIndividual>
     
 
@@ -1168,7 +1251,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudFont1">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
         <P165_incorporates rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtFont1"/>
     </owl:NamedIndividual>
     
@@ -1179,7 +1262,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#AudFont2">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Audio"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
     </owl:NamedIndividual>
     
 
@@ -1463,8 +1546,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation_of_CalanaisI">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation"/>
-        <P14_carriedOutBy rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#James_Matheson"/>
-        <P14_carriedOutBy rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patrick_Ashmore"/>
+        <P14_carried_out_by rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#James_Matheson"/>
+        <P14_carried_out_by rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patrick_Ashmore"/>
         <P8_took_place_on_or_within rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
         <hasExcavationTimeSpan rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1857"/>
         <hasExcavationTimeSpan rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#1980-1986"/>
@@ -1477,8 +1560,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation_of_Cromeleque_das_Fontaínhas">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Excavation"/>
-        <P14_carriedOutBy rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Leonor_Rocha"/>
-        <P14_carriedOutBy rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Manuel_Calado"/>
+        <P14_carried_out_by rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Leonor_Rocha"/>
+        <P14_carried_out_by rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Manuel_Calado"/>
         <P8_took_place_on_or_within rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
         <hasExcavationTimeSpan rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#2005-2006"/>
     </owl:NamedIndividual>
@@ -1557,7 +1640,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgCal1">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
     </owl:NamedIndividual>
     
 
@@ -1567,7 +1650,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgCal2">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M1"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CL_M1"/>
     </owl:NamedIndividual>
     
 
@@ -1577,7 +1660,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgFont1">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
     </owl:NamedIndividual>
     
 
@@ -1587,7 +1670,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#ImgFont2">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Image"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M1"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CF_M1"/>
     </owl:NamedIndividual>
     
 
@@ -1679,7 +1762,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtCal1">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Narrative"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
     </owl:NamedIndividual>
     
 
@@ -1689,7 +1772,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#NrtFont1">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Narrative"/>
-        <P129_isAbout rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
+        <P129_is_about rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
     </owl:NamedIndividual>
     
 
@@ -1797,7 +1880,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration_of_CalanaisI">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration"/>
-        <P14_carriedOutBy rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patrick_Ashmore"/>
+        <P14_carried_out_by rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Patrick_Ashmore"/>
         <P8_took_place_on_or_within rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#CalanaisI"/>
     </owl:NamedIndividual>
     
@@ -1808,8 +1891,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration_of_Cromeleque_das_Fontaínhas">
         <rdf:type rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Restoration"/>
-        <P14_carriedOutBy rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Leonor_Rocha"/>
-        <P14_carriedOutBy rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Manuel_Calado"/>
+        <P14_carried_out_by rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Leonor_Rocha"/>
+        <P14_carried_out_by rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Manuel_Calado"/>
         <P8_took_place_on_or_within rdf:resource="http://www.semanticweb.org/int-act-project/8/mh-ontology-30#Cromeleque_das_Fontaínhas"/>
     </owl:NamedIndividual>
     
